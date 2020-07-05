@@ -5,6 +5,13 @@
     def fibonacci(end=None, start=0, inclusive=True, length=None):
         ...
 
+### Installation and usage
+pip install py-fibonacci
+
+from fibonacci import fibonacci
+
+e.g. fibonacci(39) -> returns a list, you may assign it to a variable or print it.
+
 ### This python package of fibonacci series, provides two use cases:
 
 1. With an 'end' number argument:: so it is possible to list the fibonacci series up to that number and start (*default: 0*) number argument is optional. An optional boolean inclusive (*default: True*) argument makes the end number inclusive or exclusive.

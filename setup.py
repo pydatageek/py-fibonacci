@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="py-fibonacci",
-    version="0.5.1",
+    version="0.5.2",
     author="Haluk Aksu",
     author_email="pydatageek@gmail.com",
     description="Generates Fibonacci series with an end number OR a length argument.",
